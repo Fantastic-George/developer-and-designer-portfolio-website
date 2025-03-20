@@ -11,7 +11,7 @@ export default function Home() {
     <div className="flex flex-col min-h-screen">
       {/* Navigation */}
       <header className="sticky top-0 z-40 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="container flex h-14 items-center">
+        <div className="container flex h-14 items-center max-w-full px-4 sm:px-6 lg:px-8">
           <div className="mr-4 hidden md:flex">
             <Link href="/" className="mr-6 flex items-center space-x-2">
               <span className="font-bold text-xl">George Lam</span>
@@ -39,9 +39,9 @@ export default function Home() {
         </div>
       </header>
 
-      <main className="flex-1">
+      <main className="flex-1 w-full">
         {/* Hero Section */}
-        <section className="container py-24 sm:py-32 space-y-8 md:space-y-16">
+        <section className="container py-24 sm:py-32 space-y-8 md:space-y-16 max-w-full px-4 sm:px-6 lg:px-8">
           <div className="mx-auto flex flex-col items-center text-center">
             <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl mb-6 animate-fade-up">
               George Lam
@@ -61,7 +61,7 @@ export default function Home() {
         </section>
 
         {/* About Section */}
-        <section id="about" className="container py-24 sm:py-32 space-y-8">
+        <section id="about" className="container py-24 sm:py-32 space-y-8 max-w-full px-4 sm:px-6 lg:px-8">
           <div className="mx-auto flex flex-col items-center text-center mb-12">
             <h2 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
               About Me
@@ -93,7 +93,7 @@ export default function Home() {
         </section>
 
         {/* Projects Section */}
-        <section id="projects" className="container py-24 sm:py-32 space-y-8 bg-muted/50">
+        <section id="projects" className="container py-24 sm:py-32 space-y-8 bg-muted/50 max-w-full px-4 sm:px-6 lg:px-8">
           <div className="mx-auto flex flex-col items-center text-center mb-12">
             <h2 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
               Featured Projects
@@ -260,7 +260,7 @@ export default function Home() {
         </section>
 
         {/* Achievements Section */}
-        <section id="achievements" className="container py-24 sm:py-32 space-y-8">
+        <section id="achievements" className="container py-24 sm:py-32 space-y-8 max-w-full px-4 sm:px-6 lg:px-8">
           <div className="mx-auto flex flex-col items-center text-center mb-12">
             <h2 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
               Achievements & Recognition
@@ -319,7 +319,7 @@ export default function Home() {
         </section>
 
         {/* Skills Section */}
-        <section id="skills" className="container py-24 sm:py-32 space-y-8 bg-muted/50">
+        <section id="skills" className="container py-24 sm:py-32 space-y-8 bg-muted/50 max-w-full px-4 sm:px-6 lg:px-8">
           <div className="mx-auto flex flex-col items-center text-center mb-12">
             <h2 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
               Skills & Expertise
@@ -408,7 +408,7 @@ export default function Home() {
         </section>
 
         {/* Contact Section */}
-        <section id="contact" className="container py-24 sm:py-32 space-y-8">
+        <section id="contact" className="container py-24 sm:py-32 space-y-8 max-w-full px-4 sm:px-6 lg:px-8">
           <div className="mx-auto flex flex-col items-center text-center mb-12">
             <h2 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
               Get In Touch
@@ -456,8 +456,8 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="border-t py-6 md:py-0">
-        <div className="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
+      <footer className="border-t py-6 md:py-0 w-full">
+        <div className="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row max-w-full px-4 sm:px-6 lg:px-8">
           <p className="text-center text-sm leading-loose text-muted-foreground md:text-left">
             &copy; {new Date().getFullYear()} George Lam. All rights reserved.
           </p>
