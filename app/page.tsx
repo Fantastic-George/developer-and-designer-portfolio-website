@@ -4,50 +4,26 @@ import { Badge } from "./components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "./components/ui/tabs";
 import Link from "next/link";
 import Image from "next/image";
-import { GithubIcon, LinkedinIcon, MailIcon, ExternalLinkIcon } from "lucide-react";
+import { Config } from "@/Config";
+import Header from "./components/header";
+import { GithubIcon, LinkedinIcon, ExternalLinkIcon, MailIcon } from "lucide-react";
+import About from "./components/about";
 
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Navigation */}
-      <header className="sticky top-0 z-40 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="container flex h-14 items-center max-w-full px-4 sm:px-6 lg:px-8">
-          <div className="mr-4 hidden md:flex">
-            <Link href="/" className="mr-6 flex items-center space-x-2">
-              <span className="font-bold text-xl">George Lam</span>
-            </Link>
-            <nav className="flex items-center space-x-6 text-sm font-medium">
-              <Link href="#about" className="transition-colors hover:text-foreground/80">About</Link>
-              <Link href="#projects" className="transition-colors hover:text-foreground/80">Projects</Link>
-              <Link href="#achievements" className="transition-colors hover:text-foreground/80">Achievements</Link>
-              <Link href="#skills" className="transition-colors hover:text-foreground/80">Skills</Link>
-              <Link href="#contact" className="transition-colors hover:text-foreground/80">Contact</Link>
-            </nav>
-          </div>
-          <div className="flex flex-1 items-center justify-end space-x-2">
-            <nav className="flex items-center">
-              <Link href="https://github.com/georgelam" target="_blank" rel="noreferrer" className="w-9 px-0">
-                <GithubIcon className="h-4 w-4" />
-                <span className="sr-only">GitHub</span>
-              </Link>
-              <Link href="https://linkedin.com/in/georgelam" target="_blank" rel="noreferrer" className="w-9 px-0">
-                <LinkedinIcon className="h-4 w-4" />
-                <span className="sr-only">LinkedIn</span>
-              </Link>
-            </nav>
-          </div>
-        </div>
-      </header>
+      <Header />
 
       <main className="flex-1 w-full">
         {/* Hero Section */}
         <section className="container py-24 sm:py-32 space-y-8 md:space-y-16 max-w-full px-4 sm:px-6 lg:px-8">
           <div className="mx-auto flex flex-col items-center text-center">
             <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl mb-6 animate-fade-up">
-              George Lam
+              {Config.name}
             </h1>
             <p className="text-xl text-muted-foreground mb-8 max-w-[85%] animate-fade-up animate-delay-150">
-              Award-winning generalist creating innovative technology products
+              {Config.headline}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 animate-fade-up animate-delay-300">
               <Button asChild size="lg">
@@ -61,36 +37,7 @@ export default function Home() {
         </section>
 
         {/* About Section */}
-        <section id="about" className="container py-24 sm:py-32 space-y-8 max-w-full px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto flex flex-col items-center text-center mb-12">
-            <h2 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
-              About Me
-            </h2>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div className="relative h-[350px] w-full rounded-lg overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 z-10 rounded-lg"></div>
-              <Image 
-                src="/profile.jpg" 
-                alt="George Lam" 
-                fill 
-                className="object-cover"
-                priority
-              />
-            </div>
-            <div className="space-y-4">
-              <p className="leading-7 [&:not(:first-child)]:mt-6">
-                I'm George Lam, a multidisciplinary creator with a passion for building innovative technology products. With a background spanning design, development, and product management, I bring a unique perspective to every project.
-              </p>
-              <p className="leading-7 [&:not(:first-child)]:mt-6">
-                My work is driven by a desire to solve complex problems with elegant solutions. I believe in the power of technology to transform lives and businesses, and I'm constantly exploring new ways to push the boundaries of what's possible.
-              </p>
-              <p className="leading-7 [&:not(:first-child)]:mt-6">
-                When I'm not creating, you can find me exploring new technologies, contributing to open-source projects, or mentoring the next generation of tech innovators.
-              </p>
-            </div>
-          </div>
-        </section>
+        <About />
 
         {/* Projects Section */}
         <section id="projects" className="container py-24 sm:py-32 space-y-8 bg-muted/50 max-w-full px-4 sm:px-6 lg:px-8">
