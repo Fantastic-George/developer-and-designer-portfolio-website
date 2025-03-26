@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Config } from "@/Config";
 import { GithubIcon, LinkedinIcon, MailIcon, ExternalLinkIcon } from "lucide-react";
+import { ThemeToggle } from "./ui/theme-toggle";
 
 const Header = () => {
   return (
@@ -20,6 +21,7 @@ const Header = () => {
         </div>
         <div className="flex flex-1 items-center justify-end space-x-2">
           <nav className="flex items-center">
+            <ThemeToggle />
             <Link href="https://github.com/georgelam" target="_blank" rel="noreferrer" className="w-9 px-0">
               <GithubIcon className="h-4 w-4" />
               <span className="sr-only">GitHub</span>
