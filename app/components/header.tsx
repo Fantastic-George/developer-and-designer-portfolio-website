@@ -19,14 +19,16 @@ const Header = () => {
             <Link href="#contact" className="transition-colors hover:text-foreground/80">Contact</Link>
           </nav>
         </div>
-        <div className="flex flex-1 items-center justify-end space-x-2">
-          <nav className="flex items-center">
+        <div className="flex flex-1 items-center justify-between">
+          <div className="flex items-center mr-4">
             <ThemeToggle />
-            <Link href="https://github.com/georgelam" target="_blank" rel="noreferrer" className="w-9 px-0">
+          </div>
+          <nav className="flex items-center">
+            <Link href={Config.contactGithub} target="_blank" rel="noreferrer" className="w-9 px-0">
               <GithubIcon className="h-4 w-4" />
               <span className="sr-only">GitHub</span>
             </Link>
-            <Link href="https://linkedin.com/in/georgelam" target="_blank" rel="noreferrer" className="w-9 px-0">
+            <Link href={Config.contactLinkedin} target="_blank" rel="noreferrer" className="w-9 px-0">
               <LinkedinIcon className="h-4 w-4" />
               <span className="sr-only">LinkedIn</span>
             </Link>

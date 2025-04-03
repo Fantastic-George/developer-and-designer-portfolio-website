@@ -129,8 +129,8 @@ const config = {
 
     // 📧 add your contact information and links below ⚡️ These get re-used througout the app!
     contactEmail: "george@example.com",
-    contactLinkedin: "https://linkedin.com/in/george",
-    contactGithub: "https://github.com/george",
+    contactLinkedin: "https://linkedin.com/in/georgewlam",
+    contactGithub: "https://github.com/Fantastic-George",
     
 
 
