@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Config } from "@/Config";
 import { GithubIcon, LinkedinIcon, MailIcon, ExternalLinkIcon } from "lucide-react";
-import { ThemeToggle } from "./ui/theme-toggle";
+import { ThemeToggle } from "./ui/ThemeToggle";
 
 const Header = () => {
   return (

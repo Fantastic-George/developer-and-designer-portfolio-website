@@ -1,10 +1,10 @@
 import { Config } from "@/Config";
 import { MailIcon, ExternalLinkIcon } from "lucide-react";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/app/components/ui/tabs";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/app/components/ui/card";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/app/components/ui/Tabs";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/app/components/ui/Card";
 import Image from "next/image";
-import { Badge } from "@/app/components/ui/badge";
-import { Button } from "@/app/components/ui/button";    
+import { Badge } from "@/app/components/ui/Badge";
+import { Button } from "@/app/components/ui/Button";    
 
 
 const Achievements = () =>{

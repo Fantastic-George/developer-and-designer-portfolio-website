@@ -22,6 +22,9 @@ const config = {
     featuredProjects: "Featured projects",
     featuredProjectsSubtitle: "A selection of my most impactful work across various domains",
 
+    // ℹ️ To change your actual projects, please modify these directly in the Projects.tsx file in components.
+    // There you will find an array of objects where you can modify, add or remove as many project cards as you want!
+
     // 💡 ACHIEVEMENTS SECTION
     // ℹ️ Add your achievements here - this is required for the app to function
     
@@ -113,7 +116,22 @@ const config = {
                 }
             ]
         }
-    ]
+    ],
+
+    // 💡 CONTACT SECTION
+    // ℹ️ Add your contact information here - ✅ This is required for the app to function
+
+    contactHeading: "Get in touch",
+    contactSubtitle: "Interested in working together? Let's connect!",
+
+    contactTitle: "Let's Create Something Amazing",
+    contactDescription: "Whether you have a project in mind, a question about my work, or just want to say hello, I'd love to hear from you. I'm always open to discussing new opportunities and collaborations.",
+
+    // 📧 add your contact information and links below ⚡️ These get re-used througout the app!
+    contactEmail: "george@example.com",
+    contactLinkedin: "https://linkedin.com/in/george",
+    contactGithub: "https://github.com/george",
+    
 
 
 
