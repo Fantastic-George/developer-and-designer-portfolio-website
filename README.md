@@ -2,7 +2,7 @@
 
 A modern, customizable portfolio website built with Next.js and Tailwind CSS for developers and designers to showcase their work, skills, and achievements.
 
-![Portfolio Website Preview](https://placehold.co/600x400?text=Portfolio+Website+Preview)
+![Portfolio Website Preview](/demo.gif)
 
 ## Features
 
