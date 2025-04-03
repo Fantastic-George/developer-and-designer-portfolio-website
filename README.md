@@ -2,7 +2,7 @@
 
 A modern, customizable portfolio website built with Next.js and Tailwind CSS for developers and designers to showcase their work, skills, and achievements.
 
-![Portfolio Website Preview](/demo.gif)
+![Portfolio Website Preview](https://github.com/Fantastic-George/developer-and-designer-portfolio-website/blob/main/public/demo.gif)
 
 ## Features
 
