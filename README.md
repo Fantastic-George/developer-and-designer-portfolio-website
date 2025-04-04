@@ -190,8 +190,8 @@ Project categories for filtering are defined in the `Projects.tsx` component. To
    image: "/your-image-name.jpg" // No need to include "public" in the path
    ```
 3. If you need to format your images to fit the cards, you can find templates here:
-   [About Image Canva](https://www.canva.com/design/DAGjqh95-yU/q5hygEh9zC1sv-dbSYDUkA/view?utm_content=DAGjqh95-yU&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview)
-   [Project Image Canva](https://www.canva.com/design/DAGjqiM8xzQ/K4ATt0HiHHd_i0X1QPIe7A/view?utm_content=DAGjqiM8xzQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview)
+   <a href="https://www.canva.com/design/DAGjqh95-yU/q5hygEh9zC1sv-dbSYDUkA/view?utm_content=DAGjqh95-yU&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview" target="_blank">About Image Canva</a>
+   <a href="https://www.canva.com/design/DAGjqiM8xzQ/K4ATt0HiHHd_i0X1QPIe7A/view?utm_content=DAGjqiM8xzQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview" target="_blank">Project Image Canva</a>
 
 ## Deployment
 
