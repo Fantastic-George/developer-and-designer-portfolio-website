@@ -1,5 +1,10 @@
 const config = {
 
+    // 🏁 START HERE
+    // Go to package.json to change the name of the website
+    // In the app folder you'll find the favicon.ico - by default this is the Vercel favicon but you can change it to your own by simply replacing the file and keeping the same name
+    
+    
     // 💡 HEADER SECTION
     // ℹ️ Add your name here - ✅ This is required for the app to function
     name: "George Lam",
